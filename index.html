@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/font.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/slick/slick.css" />
+    <link rel="stylesheet" href="./assets/slick/slick-theme.css" />
+    <title>eDisplay.pk</title>
+  </head>
+
+  <body>
+    <!-- header section start from here -->
+    <header>
+      <div class="nav-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"
+            ><img src="./assets/images/ed_logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <ul class="navbar-nav">
+              <li><a class="nav-item nav-item-list" href="#">HOME</a></li>
+              <li><a class="nav-item nav-item-list" href="#">ABOUT US</a></li>
+              <li><a class="nav-item nav-item-list" href="#">SERVICES</a></li>
+              <li><a class="nav-item nav-item-list" href="#">CONTACT US</a></li>
+              <li>
+                <a
+                  class="nav-item nav-item-list d-flex custom-login align-items-center"
+                  href="#"
+                  ><img
+                    class="login-icon"
+                    src="./assets/images/login.png"
+                    alt="Login icon"
+                  />
+                  Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header section ends here -->
+    <!-- hero section starts from here -->
+    <div class="hero-section">
+      <div class="banner-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212645.5223882931!2d72.94602267857363!3d33.61603729640736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1677569441847!5m2!1sen!2s"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="banner-text">
+        <h1 class="banner-heading">
+          Find <span class="text-color">Business/Person</span>
+        </h1>
+      </div>
+      <div class="hero-container">
+        <div class="row select-wrapper align-items-center">
+          <!-- First dropdown -->
+          <div class="col-12 cusotm-width catagory">
+            <div class="input-group">
+              <select
+                class="form-select custom border-right-only"
+                aria-label="First dropdown"
+              >
+                <option selected>Select Region</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
+          </div>
+          <!-- Second dropdown -->
+          <div class="col-12 catagory">
+            <div class="input-group">
+              <select
+                class="form-select custom border-right-only"
+                aria-label="Second dropdown"
+              >
+                <option selected>Select City</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
+          </div>
+          <!-- Third dropdown -->
+          <div class="col-12 catagory">
+            <div class="input-group">
+              <select
+                class="form-select custom border-right-only"
+                aria-label="Third dropdown"
+              >
+                <option selected>Select Category</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
+          </div>
+          <!-- Fourth dropdown -->
+          <div class="col-12 catagory">
+            <div class="input-group">
+              <select class="form-select custom" aria-label="Fourth dropdown">
+                <option selected>Work Type</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12 catagory">
+            <button class="find-button">Find Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero section ends here -->
+    <!-- main text section -->
+    <div class="erp-text">
+      <p>
+        <span class="bold-text">E-commerce build</span> with your
+        <span class="bold">ERP</span> at the Heart
+      </p>
+    </div>
+    <!-- cards section -->
+    <div class="business-cards">
+      <div class="container">
+        <div id="card-container" class="row justify-content-center"></div>
+      </div>
+    </div>
+    <!-- registration section -->
+    <div class="registration">
+      <div class="registration-wrapper">
+        <div class="card card-registration my-4">
+          <div class="row form-img align-items-center">
+            <div class="col-12 custom-form">
+              <div class="card-body custom-body text-black">
+                <p class="custom-text">
+                  Register As a <span class="custom-vendor-text">Vendor</span>
+                </p>
+                <p class="registration-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  text. It has roots in a piece of classical Latin literature
+                  from 45 BC
+                </p>
+                <div class="row">
+                  <div class="col-md-6 mb-1">
+                    <div class="form-outline">
+                      <label class="form-label" for="form3Example1m"
+                        >First name</label
+                      >
+                      <input
+                        type="text"
+                        id="form3Example1m"
+                        class="form-control form-control-lg"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-1">
+                    <div class="form-outline">
+                      <label class="form-label" for="form3Example1n"
+                        >Surname</label
+                      >
+                      <input
+                        type="text"
+                        id="form3Example1n"
+                        class="form-control form-control-lg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="form-outline mb-1">
+                  <label class="form-label" for="form3Example8">
+                    Email Address</label
+                  >
+                  <input
+                    type="text"
+                    id="form3Example8"
+                    class="form-control form-control-lg"
+                  />
+                </div>
+                <div class="form-outline mb-1">
+                  <label class="form-label" for="form3Example97"
+                    >Password</label
+                  >
+                  <input
+                    type="text"
+                    id="form3Example97"
+                    class="form-control form-control-lg"
+                  />
+                </div>
+                <div class="d-flex justify-content-end pt-1">
+                  <button type="button" class="btn custom-btn text-white ms-2">
+                    Register Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 custom-img">
+              <img
+                src="./assets/images/agent.png"
+                alt="Sample photo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Clients Review Slider -->
+    <div class="client-slider py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="display-4">
+              What They Say About <span class="text-color">Vendor</span>
+            </h3>
+            <p class="w-75">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC
+            </p>
+            <div class="slick-carousel-test mt-4">
+              <div class="slick-carousel-client position-relative">
+                <div class="client-carousel-item">
+                  <div class="wrapper-clients-slider">
+                    <img
+                      class="client-img"
+                      src="./assets/images/client-img.png"
+                      alt=""
+                    />
+                    <div class="client-title">
+                      <h4 class="mb-2">Hooriya Javed</h4>
+                      <img
+                        class="stars-img"
+                        src="./assets/images/stars.png"
+                        alt=""
+                      />
+                      <span>5.0</span>
+                    </div>
+                  </div>
+                  <p class="mt-3">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form, by injected humour, or randomised words which don't
+                    look even slightly believable. If you are going to use a
+                    passage of Lorem Ipsum,
+                  </p>
+                </div>
+              </div>
+
+              <div class="slick-carousel-client position-relative">
+                <div class="client-carousel-item">
+                  <div class="wrapper-clients-slider">
+                    <img
+                      class="client-img"
+                      src="./assets/images/client-img.png"
+                      alt=""
+                    />
+                    <div class="client-title">
+                      <h4 class="mb-2">Hooriya Javed</h4>
+                      <img
+                        class="stars-img"
+                        src="./assets/images/stars.png"
+                        alt=""
+                      />
+                      <span>5.0</span>
+                    </div>
+                  </div>
+                  <p class="mt-3">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form, by injected humour, or randomised words which don't
+                    look even slightly believable. If you are going to use a
+                    passage of Lorem Ipsum,
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Clients Review Slider Ended -->
+    <!-- testimonial slider -->
+    <div class="clients-review">
+      <div class="container">
+        <div class="row custom-reviews text-white">
+          <div class="col custom-col">
+            <div class="happy-clients">
+              <p class="number">2500+</p>
+              <h3 class="number-heading">Happy Clients</h3>
+              <p class="number-p">Lorem Ipsum is simply dummy</p>
+            </div>
+          </div>
+          <div class="col custom-col">
+            <div class="vendors">
+              <p class="number">1500+</p>
+              <h3 class="number-heading">Vendors</h3>
+              <p class="number-p">Lorem Ipsum is simply dummy</p>
+            </div>
+          </div>
+          <div class="col custom-col">
+            <div class="reviews">
+              <p class="number">950+</p>
+              <h3 class="number-heading">Reviews</h3>
+              <p class="number-p">Lorem Ipsum is simply dummy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="latest-projects">
+      <div class="container">
+        <div class="our-latest-news">
+          <div class="latest-news-heading">
+            <h3>Our <span class="text-color">Latest News</span></h3>
+            <p class="latest-news-text">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC
+            </p>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="construction">
+            <div class="custom-slider">
+              <div class="card-heading">
+                <h3>construction</h3>
+              </div>
+              <div class="slider-img">
+                <img src="./assets/images/construction.png" alt="" />
+              </div>
+              <div class="card-desc mt-2">
+                <span>March 10 , 2021</span>
+                <h5 class="card-title">What is Lorem Ipsum?</h5>
+                <p class="desc">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected
+                </p>
+              </div>
+              <div class="read-more">
+                <ul class="social-links">
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/facebook.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/twitter.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/linkedin.png" alt=""
+                    /></a>
+                  </li>
+                </ul>
+                <div class="read-more-link">
+                  <a href="">Read More...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="construction">
+            <div class="custom-slider">
+              <div class="card-wrapper">
+                <div class="card-heading">
+                  <h3>construction</h3>
+                </div>
+                <div class="slider-img">
+                  <img src="./assets/images/construction.png" alt="" />
+                </div>
+                <div class="card-desc mt-2">
+                  <span>March 10 , 2021</span>
+                  <h5 class="card-title">What is Lorem Ipsum?</h5>
+                  <p class="desc">
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form, by injected
+                  </p>
+                </div>
+                <div class="read-more">
+                  <ul class="social-links">
+                    <li>
+                      <a href=""
+                        ><img src="./assets/images/facebook.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href=""
+                        ><img src="./assets/images/twitter.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href=""
+                        ><img src="./assets/images/linkedin.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <div class="read-more-link">
+                    <a href="">Read More...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="construction">
+            <div class="custom-slider">
+              <div class="card-heading">
+                <h3>construction</h3>
+              </div>
+              <div class="slider-img">
+                <img src="./assets/images/construction.png" alt="" />
+              </div>
+              <div class="card-desc mt-2">
+                <span>March 10 , 2021</span>
+                <h5 class="card-title">What is Lorem Ipsum?</h5>
+                <p class="desc">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected
+                </p>
+              </div>
+              <div class="read-more">
+                <ul class="social-links">
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/facebook.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/twitter.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/linkedin.png" alt=""
+                    /></a>
+                  </li>
+                </ul>
+                <div class="read-more-link">
+                  <a href="">Read More...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="construction">
+            <div class="custom-slider">
+              <div class="card-heading">
+                <h3>construction</h3>
+              </div>
+              <div class="slider-img">
+                <img src="./assets/images/construction.png" alt="" />
+              </div>
+              <div class="card-desc mt-2">
+                <span>March 10 , 2021</span>
+                <h5 class="card-title">What is Lorem Ipsum?</h5>
+                <p class="desc">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected
+                </p>
+              </div>
+              <div class="read-more">
+                <ul class="social-links">
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/facebook.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/twitter.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/linkedin.png" alt=""
+                    /></a>
+                  </li>
+                </ul>
+                <div class="read-more-link">
+                  <a href="">Read More...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- subscribe newsletter -->
+    <div class="subscribe-newslatter">
+      <div class="container">
+        <div class="newslatter-text text-white">
+          <div class="newsletter-heading">
+            <h6>Subscribe our <span class="text-b">Newsletter</span></h6>
+            <p class="sub-text">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC
+            </p>
+          </div>
+        </div>
+        <div class="email-to-subscribe">
+          <form class="news-letter-form custom-sub-btn">
+            <input
+              type="email"
+              name="news-email"
+              id="news-email"
+              placeholder="Your email address"
+            />
+            <input type="submit" value="Subscribe" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer-section">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="widget company-intro-widget">
+                <h2 class="footer-heading">eDisplay.pk</h2>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <ul class="company-footer-contact-list">
+                  <li>Phone:0123456789</li>
+                  <li>Email:info@edisplay.pk</li>
+                </ul>
+                <ul class="social-links">
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/facebook.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/twitter.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/linkedin.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/facebook.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="./assets/images/twitter.png" alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- widget end -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="widget course-links-widget">
+                <h5 class="widget-title">Useful Links</h5>
+                <ul class="courses-link-list">
+                  <li>
+                    <a class="text-white" href="#"
+                      ><span class="greater-icon">> </span> Home</a
+                    >
+                  </li>
+                  <li>
+                    <a class="text-white" href="#"
+                      ><span class="greater-icon">> </span> About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a class="text-white" href="#"
+                      ><span class="greater-icon">> </span>Services</a
+                    >
+                  </li>
+                  <li>
+                    <a class="text-white" href="#"
+                      ><span class="greater-icon">> </span> Terms of Service</a
+                    >
+                  </li>
+                  <li>
+                    <a class="text-white" href="#"
+                      ><span class="greater-icon">> </span> Privacy & Policy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- widget end -->
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="widget newsletter-widget">
+                <h5 class="widget-title">Our Newsletter</h5>
+                <div class="footer-newsletter">
+                  <p>Subscribe to our monthly newsletter and recieve</p>
+                  <form class="news-letter-form">
+                    <input
+                      type="email"
+                      name="news-email"
+                      id="news-email"
+                      placeholder="Your email address"
+                    />
+                    <input type="submit" value="Subscribe" />
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- widget end -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JS Path -->
+    <script src="./assets/js/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/slick/slick.min.js"></script>
+  </body>
+</html>
